@@ -1,4 +1,4 @@
-package Main;
+package main;
 /*
  *          1
  *     2        3
@@ -6,8 +6,8 @@ package Main;
  * 7    8
  */
 
-import Main.Materia.Controllers.ArbolBinario;
-import Main.Materia.Models.Node;
+import main.Materia.Controllers.ArbolBinario;
+import main.Materia.Models.Node;
 
 public class App {
     public static void main(String[] args) throws Exception {

@@ -2,6 +2,10 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "c:\\Users\\Liber\\Documents\\AJAJJAJAJAJ\\lib\\apiguardian-api-1.1.0.jar",
+        "c:\\Users\\Liber\\Documents\\AJAJJAJAJAJ\\lib\\hamcrest-core-1.3.jar",
+        "c:\\Users\\Liber\\Documents\\AJAJJAJAJAJ\\lib\\junit-jupiter-api-5.7.0.jar",
+        "c:\\Users\\Liber\\Documents\\AJAJJAJAJAJ\\lib\\junit-platform-console-standalone-1.7.0.jar"
     ]
 }
