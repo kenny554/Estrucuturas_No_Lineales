@@ -46,12 +46,12 @@ public class ArbolBinario {
         }
 
         Stack<Node> stack = new Stack<>();
-        Stack<Node> outputStack = new Stack<>();
+        Stack<Node> stack2 = new Stack<>();
         stack.push(root);
 
         while (!stack.isEmpty()) {
             Node node = stack.pop();
-            outputStack.push(node);
+            stack2.push(node);
 
             if (node.getLeft() != null) {
                 stack.push(node.getLeft());
@@ -62,8 +62,17 @@ public class ArbolBinario {
             }
         }
 
-        while (!outputStack.isEmpty()) {
-            Node node = outputStack.pop();
+        while (!stack2.isEmpty()) {
+            Node node = stack2.pop();
+            System.out.print(node.getValue() + "-");
+        }
+    }
+
+    // Recorrido del arbol postorder recursivo
+    public void postOrderRecursivo(Node node) {
+        if (node != null) {
+            postOrderRecursivo(node.getLeft());
+            postOrderRecursivo(node.getRight());
             System.out.print(node.getValue() + "-");
         }
     }
@@ -76,4 +85,5 @@ public class ArbolBinario {
             inOrder(node.getRight());
         }
     }
+
 }

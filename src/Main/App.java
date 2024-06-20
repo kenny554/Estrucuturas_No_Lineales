@@ -30,7 +30,7 @@ public class App {
         System.out.println("\nMETODO-POST-ORDER-LOOP");
         arbolBinario.postOrderLoop(nodeRoot);
         System.out.println("\nMETODO-POST-ORDER-RECURSIVO");
-        arbolBinario.postOrderLoop(nodeRoot);
+        arbolBinario.postOrderRecursivo(nodeRoot);
         System.out.println("\nIN ORDER");
         arbolBinario.inOrder(nodeRoot);
 
