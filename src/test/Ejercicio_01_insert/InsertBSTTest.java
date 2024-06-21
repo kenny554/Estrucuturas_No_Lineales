@@ -19,7 +19,7 @@ public class InsertBSTTest {
         }
 
         assertEquals(5, root.getValue());
-        assertEquals(5555, root.getLeft().getValue());
+        assertEquals(3, root.getLeft().getValue());
         assertEquals(7, root.getRight().getValue());
         assertEquals(2, root.getLeft().getLeft().getValue());
         assertEquals(4, root.getLeft().getRight().getValue());

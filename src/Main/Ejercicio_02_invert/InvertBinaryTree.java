@@ -5,10 +5,10 @@ import main.Materia.Models.Node;
 public class InvertBinaryTree {
     public Node invertTree(Node root) {
         if (root != null) {
-            Node temNode = root.getLeft();
+            Node tempNode = root.getLeft();
 
-            invertTree(root.getRight());
-            invertTree(root.getLeft());
+            root.setLeft(invertTree(root.getRight()));
+            root.setRight(invertTree(tempNode));
         }
 
         return root;
