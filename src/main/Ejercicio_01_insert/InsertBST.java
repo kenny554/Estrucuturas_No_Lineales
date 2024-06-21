@@ -1,4 +1,4 @@
-package main.Ejercicio_02_invert;
+package main.Ejercicio_01_insert;
 
 import main.Materia.Models.Node;
 

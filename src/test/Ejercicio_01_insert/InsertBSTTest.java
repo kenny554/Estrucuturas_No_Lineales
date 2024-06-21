@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import main.Ejercicio_02_invert.InsertBST;
+import main.Ejercicio_01_insert.InsertBST;
 import main.Materia.Models.Node;
 
 public class InsertBSTTest {
