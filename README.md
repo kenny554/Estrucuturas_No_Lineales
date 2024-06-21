@@ -1,18 +1,9 @@
-## Getting Started
+### Versión 2.2.1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esta versión incluye soluciones para varios ejercicios de estructuras no lineales:
+- **Ejercicio 01**: Implementación de inserción en un árbol binario de búsqueda.
+- **Ejercicio 02**: Inversión de un árbol binario.
+- **Ejercicio 03**: Listado de nodos por niveles en un árbol binario.
+- **Ejercicio 04**: Cálculo de la profundidad máxima de un árbol binario.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Cada clase y método ha sido probado y verificado para asegurar su correcto funcionamiento según los requisitos de  cada ejercicio.
