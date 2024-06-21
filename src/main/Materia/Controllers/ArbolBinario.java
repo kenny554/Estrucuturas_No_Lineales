@@ -12,20 +12,20 @@ public class ArbolBinario {
             return;
         }
 
-        Stack<Node> stack = new Stack<>();
-        stack.push(root);
+        Stack<Node> stack1 = new Stack<>();
+        stack1.push(root);
 
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
+        while (!stack1.isEmpty()) {
+            Node node = stack1.pop();
             System.out.print(node.getValue() + "-");
 
             // Agregamos los hijos de la derecha primero para procesar el izquierdo primero
             if (node.getRight() != null) {
-                stack.push(node.getRight());
+                stack1.push(node.getRight());
             }
 
             if (node.getLeft() != null) {
-                stack.push(node.getLeft());
+                stack1.push(node.getLeft());
             }
         }
     }
@@ -45,20 +45,20 @@ public class ArbolBinario {
             return;
         }
 
-        Stack<Node> stack = new Stack<>();
+        Stack<Node> stack1 = new Stack<>();
         Stack<Node> stack2 = new Stack<>();
-        stack.push(root);
+        stack1.push(root);
 
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
+        while (!stack1.isEmpty()) {
+            Node node = stack1.pop();
             stack2.push(node);
 
             if (node.getLeft() != null) {
-                stack.push(node.getLeft());
+                stack1.push(node.getLeft());
             }
 
             if (node.getRight() != null) {
-                stack.push(node.getRight());
+                stack1.push(node.getRight());
             }
         }
 
